@@ -26,7 +26,7 @@ def howMany(num, comparable):
     return 0
 
 
-def Problem5():
+def problem5():
     factors = []
 
     # prime numbers from 2 to 20
@@ -59,7 +59,7 @@ def Problem5():
 
     result = 1
     currentNumber = 1
-    
+
     for prime in primeMult:
         if prime != 0:
             result *= pow(currentNumber, prime)
@@ -69,4 +69,4 @@ def Problem5():
     print(result)
 
 
-Problem5()
+problem5()
