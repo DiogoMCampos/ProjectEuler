@@ -1,5 +1,6 @@
 import math
 
+
 # Returns true if the number is prime
 def isPrime(num):
     limit = math.floor(math.sqrt(num)) + 1
@@ -9,6 +10,7 @@ def isPrime(num):
             return False
 
     return True
+
 
 # Returns the number of times the number 'num' appears in 'comparable'
 def howMany(num, comparable):
