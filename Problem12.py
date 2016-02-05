@@ -13,6 +13,7 @@ def getFactors(num):
 
     return factorsList
 
+
 def problem12():
     found = False
     currentNumber = 0
