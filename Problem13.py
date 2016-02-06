@@ -118,5 +118,4 @@ def problem13():
 
     print(numberSum)
 
-
 problem13()
