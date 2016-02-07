@@ -17,11 +17,9 @@ def problem14():
 
     limit = 1000000
 
-    numberList = []
     maxPair = [1, 1]
 
     for i in range(1, limit):
-        num = i
         tempPair = getCollatzLength(i)
         if tempPair[1] > maxPair[1]:
             maxPair = tempPair
